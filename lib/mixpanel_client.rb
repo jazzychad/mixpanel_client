@@ -14,7 +14,7 @@ require 'open-uri'
 require 'json' unless defined?(JSON)
 
 # Ruby library for the mixpanel.com web service
-module Mixpanel
+module MixpanelClient
   BASE_URI = 'http://mixpanel.com/api'
   VERSION  = '2.0'
 
